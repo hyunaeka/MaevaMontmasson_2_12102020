@@ -2,7 +2,10 @@
 	<html lang="fr">
 		<head>
             <meta charset="utf-8">
+            <link rel="stylesheet" href="style.css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800;900&display=swap" rel="stylesheet">
 				<title> PROJET 2 </title>
 
 		</head>
@@ -11,14 +14,14 @@
         
 	<header>
 		
-        <img src="images/logo/Reservia.png" alt="logo du site">
+        <img id="Logo" src="images/logo/Reservia.png" alt="logo du site">
 
 
             <nav>
 
-                <a href="#">Hébergement</a>
-                <a href="#">Activités</a>
-                <a href="#">S'inscrire</a>
+                <a class="header_nav" href="#">Hébergements</a>
+                <a class="header_nav" href="#">Activités</a>
+                <a id="sign_up" href="#">S'inscrire</a>
 
             </nav>
 
@@ -31,7 +34,7 @@
                 <p>En plein centre ville ou en pleine nature</p>
                     <form>
                         <div>
-                                <label for="location_search"> <i class="fas fa-map-marker-alt"></i></label>
+                            <span id="background_search"><label for="location_search"></label><i class="fas fa-map-marker-alt"></i></label></span>
                                     <input type="search" id="location_search" name="q" placeholder="Marseille,France">
                                         <button>Rechercher</button>
                         </div>                
