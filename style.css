@@ -17,7 +17,7 @@ header
     width: 91px;
     height: 45px;
     padding: 70px 0px  20px 0px ;
-    margin-left: 10%;
+    margin-left: 0%;
 
 }
 
@@ -62,10 +62,8 @@ a#sign_up
     font-weight: bold;
     color: #0065FC ;
 }
-h2 
-{
-    font-family: 'Raleway';
-}
+
+
 
 main
 {
@@ -89,7 +87,7 @@ label
     width: 50px;
 }
 
-.fas
+#searching_div .fas
 {
     
     padding: 18px 20px 18px 20px;
@@ -131,5 +129,79 @@ button
     width: 110px;
     color: white;
     font-stretch: extra-expanded;
+    -webkit-appearance: none;
     
 }
+
+#filter_title
+{
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+#filtered
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter_bar
+{
+    display: flex;
+}
+
+
+
+#filtered_search
+{
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: #F2F2F2 2px solid;
+    border-left: none;
+    margin-bottom: 1rem;
+    margin-right: 3em;
+    font-weight: bold;
+ }
+
+ .icon_search
+ {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    height: 55px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+   }
+
+   .filter_name
+   {
+    padding-left: 1em;
+    padding-right: 1em;
+   }
+
+   #filtered .fas
+   {
+       color: #0065FC;
+   }
+
+   #info
+   {
+       display: flex;
+   }
+
+   #logo_info
+   {
+    border-radius: 100%;
+    height: 0,5em;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin-right: 1em;
+    border: 2px solid #F2F2F2;
+   }
