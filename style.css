@@ -2,15 +2,13 @@
 body
  {
     font-family: 'Raleway', sans-serif;
-    width: 95%;
 }
 
 header
 {
     display: flex;
     justify-content: space-between;
-    margin: auto
-    max-width: 1440px;
+    margin: auto;
 }
 
 #Logo
@@ -24,6 +22,7 @@ header
 nav
 {
     display: flex;
+    margin-right: 12em;
 }
 
 .header_nav
@@ -218,4 +217,83 @@ button
        font-size: 15px;
        text-align: center;
        padding-top: 0.2em;
+   }
+
+   #lodging_main
+   {
+       margin-top: 2em;
+       display: flex;
+   }
+
+   #lodging
+   {
+       background-color: #F2F2F2;
+       padding-top: 2em;
+       padding-left: 2em;
+       width: 70%;
+
+
+   }
+
+   #lodging_article
+   {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       width: 90%;
+       
+   }
+
+  
+   #title_lodging
+   { 
+    margin-bottom: 1em;
+    margin-top: 0em;
+    padding: 0px;
+    
+   }
+
+   .lodging_card
+   {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    margin-top: 1em;
+    border-radius: 15px;
+    padding: 0px;
+   }
+
+   .lodging_card_img
+   {
+    object-fit: cover;
+    height: 10em;
+    max-width: 100%;
+    width: 100%;
+   }
+
+   aside
+   {
+
+       background-color: #F2F2F2;
+       padding-top: 2em;
+       padding-left: 2em;
+       width: 30%;
+       margin-left: 3em;
+   }
+
+   .most_popular_card
+   {
+    width: 200px;
+    height: 100px;
+   }
+
+   .most_popular_img
+   {
+       width: 30%;
+   }
+
+   #activity img
+   {
+       width: 10%;
    }
