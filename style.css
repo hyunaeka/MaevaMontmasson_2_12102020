@@ -223,6 +223,7 @@ button
    {
        margin-top: 2em;
        display: flex;
+       height: 100%;
    }
 
    #lodging
@@ -231,7 +232,7 @@ button
        padding-top: 2em;
        padding-left: 2em;
        width: 70%;
-       height: 70%;
+       height: 100%;
        border-radius: 20px;
    }
 
@@ -261,12 +262,14 @@ button
     border-radius: 15px;
     padding: 0.5rem;
     box-shadow: 8px 8px 8px #d9d9d9;
+    box-sizing: content-box;
    }
 
    .lodging_card_img
    {
     object-fit: cover;
-    height: 8em;
+    height: 7.5em;
+    max-height: 100%;
     max-width: 100%;
     width: 100%;
     border-top-right-radius: 20px;
@@ -289,11 +292,18 @@ button
        padding: 0.2rem;
    }
 
+   .lodging_card_content
+   {
+       width: 100%;
+       overflow: auto;
+   }
+
    #article_more
    {
        font-weight: 600;
        margin-top: 2em;
        padding-left: 1em;
+       margin-bottom: 2em;
    }
 
 
@@ -357,14 +367,8 @@ button
         display: flex;
         padding: 0px;
         overflow: auto;
+        height: 100%;
     } 
-
-    article .lodging_a
-    {
-        overflow: 
-        width: 100%;
-        padding: 0%;
-    }
 
     aside h3,p 
     {
@@ -394,6 +398,17 @@ button
     {
         margin-right: 0.2rem;
         margin-bottom: 0.3rem;
+    }
+
+    #header_aside
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-chart-line
+    {
+        padding-right: 1em;
     }
 
     .lodging_a:link
