@@ -1,6 +1,6 @@
 
 body
- {
+{
     font-family: 'Raleway', sans-serif;
 }
 
@@ -152,7 +152,7 @@ button
 
 
 
-#filtered_search
+.filtered_search
 {
     display: flex;
     align-items: center;
@@ -165,7 +165,7 @@ button
  }
 
  .icon_search
- {
+   {
     background-color: #DEEBFF;
     border-radius: 100%;
     height: 55px;
@@ -184,7 +184,7 @@ button
 
    #filtered .fas
    {
-       color: #0065FC;
+    color: #0065FC;
    }
 
    #info
@@ -195,15 +195,15 @@ button
 
    #logo_info
    {
-    border-radius: 100%;
-    height: 2px;
-    width: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    margin-right: 1em;
-    border: 2px solid #F2F2F2;
+        border-radius: 100%;
+        height: 2px;
+        width: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        margin-right: 1em;
+        border: 2px solid #F2F2F2;
    }
 
    #info .fas
@@ -231,8 +231,8 @@ button
        padding-top: 2em;
        padding-left: 2em;
        width: 70%;
-
-
+       height: 70%;
+       border-radius: 20px;
    }
 
    #lodging_article
@@ -241,8 +241,7 @@ button
        flex-direction: row;
        flex-wrap: wrap;
        justify-content: space-between;
-       width: 90%;
-       
+       margin-right: 2em;     
    }
 
   
@@ -250,50 +249,183 @@ button
    { 
     margin-bottom: 1em;
     margin-top: 0em;
-    padding: 0px;
-    
+    padding: 0px;  
    }
 
    .lodging_card
    {
-    height: 100%;
+    height: 40%;
     width: 30%;
     background-color: white;
     margin-top: 1em;
     border-radius: 15px;
-    padding: 0px;
+    padding: 0.5rem;
+    box-shadow: 8px 8px 8px #d9d9d9;
    }
 
    .lodging_card_img
    {
     object-fit: cover;
-    height: 10em;
+    height: 8em;
     max-width: 100%;
     width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
    }
+
+   article h3
+   {
+       padding: 0.2rem;
+       margin: 0px;
+   }
+
+   article p
+   {
+       padding: 0.2rem;
+   }
+
+   .lodging_card_star
+   {
+       padding: 0.2rem;
+   }
+
+   #article_more
+   {
+       font-weight: 600;
+       margin-top: 2em;
+       padding-left: 1em;
+   }
+
 
    aside
    {
-
        background-color: #F2F2F2;
        padding-top: 2em;
        padding-left: 2em;
-       width: 30%;
+       width: 40%;
        margin-left: 3em;
+       border-radius: 20px;
    }
 
+   .most_popular
+   {
+       display: flex;
+       flex-direction: column;
+
+   }
    .most_popular_card
    {
-    width: 200px;
-    height: 100px;
+    width: 85%;
+    height: 8em;
+    background-color: white;
+    position: relative;
+    padding: 0.5rem;
+    margin-top: 1em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 8px 8px 8px #d9d9d9;
    }
 
    .most_popular_img
    {
-       width: 30%;
+       max-height: 100%;
+       height: 90%;
+       width: 33%;
+       position: absolute;
+       object-fit: cover;
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
    }
 
+   .Aside_card_title
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: 100%;
+   }
+
+   .aside_img
+   {
+       width: 60%;
+   }
+
+    aside .lodging_a 
+    {
+        width: 100%;
+        display: flex;
+        padding: 0px;
+        overflow: auto;
+    } 
+
+    article .lodging_a
+    {
+        overflow: 
+        width: 100%;
+        padding: 0%;
+    }
+
+    aside h3,p 
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    aside h2
+    {
+        margin-top: 0px;
+    }
+
+    .aside_content_card
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aside_card_star
+    {
+        display: flex;
+        
+    }
+
+    aside .fas 
+    {
+        margin-right: 0.2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .lodging_a:link
+    {
+        text-decoration:none; 
+    }
+
+    .lodging_a:hover
+    {
+        color: black;
+    }
+    .lodging_a:active
+    {
+        color: black;
+    }
+
+    .lodging_a:visited
+    {
+        color: black;
+    }
+    .star_on
+    {
+        color: #0065FC;
+    }
+ 
+    .star_off
+    {
+        color: #d9d9d9;
+    }
+ 
    #activity img
    {
        width: 10%;
    }
+
