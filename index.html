@@ -21,9 +21,10 @@
 
                 <a class="header_nav" href="#">Hébergements</a>
                 <a class="header_nav" href="#">Activités</a>
-                <a id="sign_up" href="#">S'inscrire</a>
 
             </nav>
+            
+                <a id="sign_up" href="#">S'inscrire</a>
 
 	</header>
         
@@ -89,9 +90,7 @@
 
         <section id="lodging_main">
 
-            
-
-            <article id="lodging">
+            <div id="lodging">
 
                 <div id="header_lodging">
 
@@ -101,9 +100,9 @@
                 
                 <div id="lodging_article">
 
-                    
-                    <div class="lodging_card">
-                        <a href="#" class="lodging_a">
+                    <a href="#" class="lodging_a">
+                    <article class="lodging_card">
+                        
 
                                 <img class="lodging_card_img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
                                          <div class="lodging_card_content">
@@ -117,10 +116,10 @@
                                                             <i class="fas fa-star star_off"></i>
                                                         </div>
                                          </div>
-                        </a>
-                    </div> 
                     
-                    <div class="lodging_card">
+                    </article> 
+                   </a>
+                    <article class="lodging_card">
                         <a href="#" class="lodging_a">
                                 <img class="lodging_card_img" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                                         <div class="lodging_card_content">
@@ -135,9 +134,9 @@
                                                     </div>
                                          </div>
                         </a>
-                    </div>
+                    </article>
 
-                    <div class="lodging_card">
+                    <article class="lodging_card">
                         <a href="#" class="lodging_a">
                                 <img class="lodging_card_img" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes">
                                         <div class="lodging_card_content">  
@@ -152,9 +151,9 @@
                                                     </div>
                                          </div>
                         </a>
-                    </div>
+                    </article>
 
-                    <div class="lodging_card">
+                    <article class="lodging_card">
                         <a href="#" class="lodging_a">
                                 <img class="lodging_card_img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                                         <div class="lodging_card_content">
@@ -169,9 +168,9 @@
                                                     </div>                               
                                          </div>
                         </a>
-                    </div>
+                    </article>
 
-                    <div class="lodging_card">
+                    <article class="lodging_card">
                         <a href="#" class="lodging_a">
                                 <img class="lodging_card_img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
                                         <div class="lodging_card_content"> 
@@ -186,9 +185,9 @@
                                                     </div>
                                          </div>
                         </a>
-                    </div>
+                    </article>
 
-                    <div class="lodging_card">
+                    <article class="lodging_card">
                         <a href="#" class="lodging_a">
                                 <img class="lodging_card_img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                                         <div class="lodging_card_content">        
@@ -203,12 +202,14 @@
                                                         </div>
                                          </div>
                         </a>
-                    </div>
+                    </article>
 
+                    <p id="article_more">Afficher plus</p>
                 </div>
-             <p id="article_more">Afficher plus</p>
 
-            </article>
+             
+
+            </div>
 
 
 
@@ -290,62 +291,65 @@
 
         <section id="activity">
 
-            <div id="header_activity">
-                    <h2>Activités à Marseille</h2>
-            </div>
-
-                    <div div="activity_1">
-                        <a href="#">
-                                <img class="activity_large" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
-                                        <div class="activity_card_content">
-                                            <h3>Vieux port</h3>
-                                        </div>
-                            </a> 
+                    <div id="header_activity">
+                            <h2>Activités à Marseille</h2>
                     </div>
 
-                    <div div="activity_2">
-                        <a href="#">
-                                <img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Vieux Port">
-                                        <div class="activity_card_content">
-                                            <h3>Fort de Pomègues</h3>
-                                        </div>
-                        </a>
-                    </div>
+                    <div id="activity_content">
+                            <div id="activity_1">
+                                <a href="#">
+                                        <img class="activity_large" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                                                <div class="activity_card_content">
+                                                    <h3>Vieux port</h3>
+                                                </div>
+                                    </a> 
+                            </div>
 
-                    <div div="activity_3">
-                        <a href="#">
-                                <img src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
-                                        <div class="activity_card_content">
-                                            <h3>Îles du Frioul</h3>
-                                        </div>
-                        </a>
-                    </div>
+                            <div id="activity_2">
+                                <a href="#">
+                                        <img class="activity_medium" src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Vieux Port">
+                                                <div class="activity_card_content">
+                                                    <h3>Fort de Pomègues</h3>
+                                                </div>
+                                </a>
+                            </div>
 
-                    <div div="activity_4">
-                        <a href="#">
-                                <img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-                                        <div class="activity_card_content">
-                                            <h3>Parc National des Calanques</h3>
-                                        </div>
-                    </div>
+                            <div id="activity_3">
+                                <a href="#">
+                                        <img class="activity_medium" src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
+                                                <div class="activity_card_content">
+                                                    <h3>Îles du Frioul</h3>
+                                                </div>
+                                </a>
+                            </div>
 
-                    <div div="activity_5">
-                        <a href="#">
-                                <img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-                                        <div class="activity_card_content">
-                                            <h3>Notre-Dame-de-la-Garde</h3>
-                                        </div>
-                    </div>
+                            <div id="activity_4">
+                                <a href="#">
+                                        <img class="activity_large" src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+                                                <div class="activity_card_content">
+                                                    <h3>Parc National des Calanques</h3>
+                                                </div>
+                                 </a>
+                            </div>
 
-                    <div div="activity_6">
-                        <a href="#">
-                                <img src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-                                    <div class="activity_card_content">
-                                        <h3>Parc Longchamp</h3>
-                                    </div>
-                         </a>
-                    </div>
+                            <div id="activity_5">
+                                <a href="#">
+                                        <img class="activity_medium" src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                                                <div class="activity_card_content">
+                                                    <h3>Notre-Dame-de-la-Garde</h3>
+                                                </div>
+                                </a>
+                            </div>
 
+                            <div id="activity_6">
+                                <a href="#">
+                                        <img class="activity_medium" src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+                                            <div class="activity_card_content">
+                                                <h3>Parc Longchamp</h3>
+                                            </div>
+                                </a>
+                            </div>
+                    </div>
         </section>
     </main>
 
