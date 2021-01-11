@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 	<html lang="fr">
-
 		<head>
             <meta charset="utf-8">
             <link rel="stylesheet" href="style.css" />
@@ -8,35 +7,30 @@
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800;900&display=swap" rel="stylesheet">
 				<title> PROJET 2 </title>
-
 		</head>
 
-<body>
+        <body>
      
-	<header>
-		
-        <img id="Logo" src="images/logo/Reservia.png" alt="logo du site">
+	        <header>
+                <img id="Logo" src="images/logo/Reservia.png" alt="logo du site">
 
-            <nav>
-                <a class="header_nav" href="#">Hébergements</a>
-                <a class="header_nav" href="#">Activités</a>
-            </nav>
-            
-            <a id="sign_up" href="#">S'inscrire</a>
-
-	</header>
+                <nav>
+                    <a class="header_nav" href="#lodging_article">Hébergements</a>
+                    <a class="header_nav" href="#activity">Activités</a>
+                </nav>
+                
+                <a id="sign_up" href="#">S'inscrire</a>
+	        </header>
         
-    <main>
+            <main>
 
         <section id="search">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                    <form>
-                        <div id="searching_div">
+            <p>En plein centre ville ou en pleine nature</p>
+                <form id="searching_div">
                             <label for="location_search"><i class="fas fa-map-marker-alt"></i></label>
                                     <input class="searching_area" type="search" id="location_search" name="q" placeholder="Marseille,France">
-                                        <button>Rechercher</button>
-                        </div>                
+                                        <button> <span id="search_input">Rechercher</span>  <i class=" submit_icon fas fa-search "></i></button>           
                     </form>
 
         </section>
