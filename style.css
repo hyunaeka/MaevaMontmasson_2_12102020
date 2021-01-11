@@ -86,7 +86,7 @@
         list-style: none;
     }
 
-    @media all and (max-device-width: 480px) 
+    @media screen and (max-width: 667px) 
     
     {
         header 
@@ -106,9 +106,9 @@
             
         #sign_up
         {
-            padding: 2em 0 0 4em;
+            padding: 3em 0 0 4em;
             order: 2;
-            font-size: 2.8em;
+            font-size: 2em;
             width: 25%;
         }
 
@@ -122,15 +122,16 @@
         nav 
         {
             padding: 1.5em 1em 0 1em;
-            font-size: 3em;
+            font-size: 2em;
             order: 3;
         }
         
         .header_nav
         {
-            padding: 1em 3em 0.5em 2em;
             border-bottom: #F2F2F2 solid 6px;
             color: black;
+            margin-top: 1em;
+            margin-bottom: 1em;
         }
 
         a.header_nav:link
@@ -138,6 +139,7 @@
             text-decoration: none;
             border-bottom: #F2F2F2 solid 6px;
             color: black;
+            padding: 1.5em 3em;
         }
 
         a.header_nav:active
@@ -179,7 +181,6 @@
         border-top: #F2F2F2 1px solid;
         border-bottom: #F2F2F2 1px solid;
         margin: 0px;
-        -webkit-appearance: none;
         font-weight: bold;
         font-style: normal;
         padding-left: 10px;
@@ -188,8 +189,9 @@
 
     #searching_div
     {
-    display: flex;
-    box-sizing: border-box;
+        display: flex;
+        box-sizing: border-box;
+        margin-bottom: 2em;
     }
 
     button
@@ -204,8 +206,6 @@
         width: 10em;
         color: white;
         font-stretch: extra-expanded;
-        -webkit-appearance: none;
-        
     }
 
     section h1
@@ -213,11 +213,11 @@
         font-size: 20px
     }
 
-    #search p 
+    #sub_title_search
     {
-        margin: 1em 0em 1em 0;
+        margin-top: 0;
+        margin-bottom: 1em;
     }
-
     .submit_icon
     {
         display: none !important;
@@ -226,14 +226,14 @@
     
 
 
-    @media screen and (max-device-width: 480px)
+    @media screen and (max-width: 667px)
     {
 
         #searching_div 
         {
             display: flex;
             /* box-sizing: border-box; */
-            margin-bottom: 5em;
+            margin-bottom: 3em;
         }
 
         label
@@ -253,11 +253,10 @@
             border-top: #F2F2F2 2px solid;
             border-bottom: #F2F2F2 2px solid;
             margin: 0px;
-            -webkit-appearance: none;
             font-weight:700;
             font-style: normal;
             padding-left: 1em;
-            font-size: 2em;
+            font-size: 1.5em;
             
         }
 
@@ -266,25 +265,27 @@
             
             padding: 18px 20px 18px 20px;
             font-weight: bold;
-            font-size: 3em;
+            font-size: 2em;
             
         }
 
         section h1
         {
-            font-size: 3em;
+            font-size: 2em;
+            margin-bottom: 0.4em;
         }
     
         #sub_title_search
         {
-            margin: 1em 0em 1em 0;
-            font-size: 2.2em;
+            margin-bottom: 2em;
+            font-size: 1.5em;
         }
 
         .submit_icon
         {
             display: block !important;
             color: white;
+            font-size: 2em;
         }
 
         #search_input
@@ -294,8 +295,8 @@
 
         button 
         {
-            border-top-right-radius: 40px;
-            border-bottom-right-radius: 40px;
+            border-radius: 30px;
+            margin-left: -3em;
         }
     
 
@@ -385,7 +386,7 @@
        padding-top: 0.2em;
    }
 
-   @media screen and (max-device-width: 480px)
+   @media screen and (max-width: 667px)
    {
         #filter_bar
         {
@@ -396,43 +397,45 @@
         .filtered_search
         {
             border-radius: 5rem;
-            border: #F2F2F2 8px solid;
+            border: #F2F2F2 5px solid;
             border-left: none;
+            margin-right: 1em;
         }
 
         #filter_title
         {
-            font-size: 3em;
+            font-size: 2em;
+            margin-right: 11em;
         } 
 
         .icon_search
         {
-            width: 10em;
-            height: 10em;
+            width: 5.5em;
+            height: 5.5em;
         }
 
         .icon_filter
         {
-            font-size: 3em;
+            font-size: 1.5em;
         }
 
         .filter_name
         {
-            font-size: 3em;
+            font-size: 1.4em;
         }
 
         #logo_info
         {
-            margin-top: 2em;
+            margin-top: 1.5em;
             border: 3px solid #F2F2F2;
-            width: 3em;
-            height: 3em;
+            width: 2em;
+            height: 2em;
         }
 
         #info .fas
 
         {
-            font-size: 2em;
+            font-size: 1em;
             color: #0065FC;
         }
 
@@ -440,7 +443,7 @@
         {
             margin: 1em;
             text-align: left;
-            font-size: 30px;
+            font-size: 1.3em;
         }
    }
 
@@ -473,39 +476,39 @@
   
    #title_lodging
    { 
-    margin-bottom: 1em;
-    margin-top: 0em;
-    padding: 0px;  
+        margin-bottom: 1em;
+        margin-top: 0em;
+        padding: 0px;  
    }
  
    .lodging_a 
    {
-    height: 50%;
-    width: 30%;
+        height: 50%;
+        width: 30%;
    }
 
    .lodging_card
    {
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    margin-top: 1em;
-    border-radius: 15px;
-    padding: 0.5rem;
-    box-shadow: 8px 8px 8px #d9d9d9;
-    box-sizing: content-box;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        margin-top: 1em;
+        border-radius: 15px;
+        padding: 0.5rem;
+        box-shadow: 8px 8px 8px #d9d9d9;
+        box-sizing: content-box;
    }
 
 
    .lodging_card_img
    {
-    object-fit: cover;
-    height: 7.5em;
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+        object-fit: cover;
+        height: 7.5em;
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
    }
 
    article h3
@@ -538,7 +541,7 @@
     margin-bottom: 2em;
    }
 
-   @media screen and (max-device-width: 480px)
+   @media screen and (max-width: 667px)
    {
 
     #lodging_main
@@ -556,7 +559,7 @@
     #title_lodging
 
     {
-        font-size: 3em;
+        font-size: 2.2em;
     }
 
     .lodging_card
@@ -573,31 +576,32 @@
 
     .lodging_card_img
     {
-        height: 15em;
+        height: 11em;
         border-top-right-radius: 50px;
         border-top-left-radius: 50px;
     }
 
     article h3
     {
-        font-size: 2.5em;
+        font-size: 2em;
         padding: 0.5em 0 0.5em 0.5em;
     }
     .lodging_card_content p
     {
         padding: 0 0 0.5em 0.7em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .lodging_card_star
     {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 0 0 0.5em 0.7em;
     }
 
     #article_more 
     {
-        font-size: 3em;
+        font-size: 2em;
+        padding: 0;
     }
    }
 
@@ -710,18 +714,15 @@
     .lodging_a:link
     {
         text-decoration:none; 
-
-    }
-
-    .lodging_a:active
-    {
         color: black;
+
     }
 
-    .lodging_a:visited
+    .lodging_a:hover
     {
-        color: black;
+        color: #0065FC;
     }
+
     .star_on
     {
         color: #0065FC;
@@ -732,12 +733,13 @@
         color: #d9d9d9;
     }
  
-    @media screen and (max-device-width: 480px)
+    @media screen and (max-width: 667px)
     {
            .most_popular
         {
             display: flex;
             flex-wrap: wrap;
+            padding-right: 1em;
         }
 
         aside 
@@ -746,17 +748,18 @@
             padding-bottom: 5em;
             width: 100%;
             margin-left: 0;
+            border-radius: 2px;
         }
 
         aside h3 
         {
-            font-size: 2.5em;
+            font-size: 1.5em;
             margin-bottom: 0.5em;
         }
 
         aside p 
         {
-            font-size: 2em;
+            font-size: 1.5em;
         }
 
         aside.fas 
@@ -767,7 +770,7 @@
         .aside_card_star
 
         {
-            font-size: 2em;
+            font-size: 1.5em;
         }
 
         .aside_content_card
@@ -778,12 +781,12 @@
 
         #header_aside 
         {
-            font-size: 3em;
+            font-size: 2em;
         }
 
         .most_popular_card
         {
-            height: 20em;
+            height: 15em;
             border-radius: 50px;
             width: 95%;
         }
@@ -795,8 +798,8 @@
 
         .most_popular_img
         {
-            width: 43%;
-            height: 95%;
+            width: 40%;
+            height: 93%;
             border-top-left-radius: 50px;
             border-bottom-left-radius: 50px;
         }
@@ -806,7 +809,7 @@
 
    #activity
    {
-       margin-top: 5em;
+       margin-top: 2em;
        display: flex;
        flex-direction: column;
    }
@@ -824,74 +827,75 @@
        flex-wrap: wrap;
        width: 100%;
        height: 35em;
+       padding-left: 2em;
        
    }
 
    #activity_1
    {
-    background-color: white;
-    width: 22%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:  0 0 20px #d9d9d9;
-    margin: 0;
+        background-color: white;
+        width: 22%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow:  0 0 20px #d9d9d9;
+        margin: 0;
    }
 
    #activity_2
    {
-    background-color: white;
-    width: 20%;
-    height: 45%;
-    border-radius: 20px;
-    box-shadow:  0 0 20px #d9d9d9;
+        background-color: white;
+        width: 20%;
+        height: 45%;
+        border-radius: 20px;
+        box-shadow:  0 0 20px #d9d9d9;
    }
 
    #activity_3
    {
-    background-color: white;
-    width: 20%;
-    border-radius: 20px;
-    height: 48%;
-    margin-top: 2em;
-    box-shadow:  0 0 20px #d9d9d9;
+        background-color: white;
+        width: 20%;
+        border-radius: 20px;
+        height: 48%;
+        margin-top: 2em;
+        box-shadow:  0 0 20px #d9d9d9;
    }
 
    #activity_4
    {
-    background-color: white;
-    width: 22%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:  0 0 20px #d9d9d9;
-    margin: 0;
+        background-color: white;
+        width: 22%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow:  0 0 20px #d9d9d9;
+        margin: 0;
    }
 
    #activity_5
    {
-    background-color: white;
-    width: 20%;
-    height: 45%;
-    border-radius: 20px;
-    box-shadow:  0 0 20px #d9d9d9;
+        background-color: white;
+        width: 20%;
+        height: 45%;
+        border-radius: 20px;
+        box-shadow:  0 0 20px #d9d9d9;
    }
 
    #activity_6
    {
-    background-color: white;
-    width: 20%;
-    height: 48%;
-    margin-top: 2em;
-    border-radius: 20px;
-    box-shadow:  0 0 20px #d9d9d9;
+        background-color: white;
+        width: 20%;
+        height: 48%;
+        margin-top: 2em;
+        border-radius: 20px;
+        box-shadow:  0 0 20px #d9d9d9;
    }
 
    .activity_medium
    {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 70%;
+        width: 100%;
+        object-fit: cover;
    }
 
    .activity_large
@@ -909,7 +913,7 @@
         padding-left: 1em;
     }
 
-    @media screen and (max-device-width: 480px)
+    @media screen and (max-width: 667px)
     {
         #activity 
         {
@@ -919,12 +923,14 @@
         #activity_content
         {
             height: 100%;
-            margin-left: 2em;
+            margin-left: 0;
         }
 
         #activity h2
         {
-            font-size: 3em;
+            font-size: 2.2em;
+            padding-left: 0.7em;
+            padding-bottom: 1em;
         }
 
         #activity_1
@@ -975,7 +981,7 @@
 
         .activity_large
         {
-            height: 15em;
+            height: 11em;
             border-top-right-radius: 50px;
             border-top-left-radius: 50px;
             
@@ -983,7 +989,7 @@
 
         .activity_medium 
         {
-            height: 15em;
+            height: 11em;
             border-top-right-radius: 50px;
             border-top-left-radius: 50px;
             
@@ -991,72 +997,70 @@
 
         #activity h3 
         {
-            font-size: 2em;
+            font-size: 1.9em;
             padding: 1em;
             margin-top: 0;
         }
     }
 
-   footer
-   {
-       background-color: #F2F2F2;
-       margin-top: 4em;
-       padding: 2em 0 2em 10em;
-       display: flex;
-   }
-
-   .footer_content
-   {
-       margin-right: 20%;
-   }
-
-   footer h2
-   {
-       font-size: 1em;
-   }
-
-   footer ul
-   {
-       padding: 0;
-   }
-
-   footer li 
-   {
-       line-height: 2em;
-   }
-
-   @media screen and (max-device-width: 480px)
-   {
-    footer 
+    footer
     {
-        padding: 1em 0 1em 4em;
-        margin-left: 6em;
-        margin-right: 3em;
+        background-color: #F2F2F2;
+        margin-top: 4em;
+        padding: 2em 0 2em 10em;
         display: flex;
-        flex-direction: column;
-        -webkit-appearance: none;
     }
 
     .footer_content
-     {
-         margin-bottom: 2em;
-         color: black;
-     }
-
-     footer h2 
-     {
-         font-size: 3em;
-     }
-
-     footer li {
-        line-height: 2em;
-        color: black;
-        font-size: 2em;
-    }
-
-    a.a_footer:link 
     {
-        color: black;
+        margin-right: 20%;
     }
+
+    footer h2
+    {
+        font-size: 1em;
     }
-   }
+
+    footer ul
+    {
+        padding: 0;
+    }
+
+    footer li 
+    {
+        line-height: 2em;
+    }
+
+   @media screen and (max-width: 667px)
+   {
+        footer 
+        {
+            padding: 5em 2em 1em 5em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 2em;
+        }
+
+        .footer_content
+        {
+            margin-bottom: 2em;
+            color: black;
+        }
+
+        footer h2 
+        {
+            font-size: 2em;
+        }
+
+        footer li {
+            line-height: 2em;
+            color: black;
+            font-size: 1.5em;
+        }
+
+        a.a_footer:link 
+        {
+            color: black;
+        }
+    }
+   
