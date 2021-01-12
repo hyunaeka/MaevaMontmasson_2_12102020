@@ -151,6 +151,72 @@
 
     }
 
+    @media screen and (max-width: 1024px)
+    {
+        header 
+        {
+            display: flex;
+            flex-direction: row;
+            border-bottom: blue 2px solid;
+        }
+
+        #Logo
+        {
+            padding: 2em;
+            margin-right: 20em;
+            width: 8em;
+            height: 4em;
+            margin-left: 19em;
+        }
+            
+        #sign_up
+        {
+            text-decoration: none;
+            font-weight: 500;
+            color: #0065FC;
+            font-size: 1.1em;
+            padding-top: 2.4em;
+            padding-left: 2.2em;
+            margin: 0;
+            width: 0;
+            height: 0;
+        }
+
+        a#sign_up
+        {
+            text-decoration: none;
+            font-weight:500;
+            color: #0065FC ;
+        }
+
+        nav 
+        {
+            padding: 0;
+            font-size: 1.5em;
+        }
+        
+        .header_nav
+        {
+            font-size: 0.7em;
+            border: none !important;
+        }
+
+        a.header_nav:link
+        {
+            text-decoration: none;
+            border-bottom: #F2F2F2 solid 6px;
+            color: black;
+        }
+
+        a.header_nav:active
+        {
+            color: #0065FC;
+            border-bottom: #0065FC solid 6px;
+            border-top: none;
+        }
+
+    }
+
     main
     {
         width: 80%;
@@ -234,6 +300,7 @@
             display: flex;
             /* box-sizing: border-box; */
             margin-bottom: 3em;
+            margin-left: 1em;
         }
 
         label
@@ -247,7 +314,7 @@
 
         .searching_area
         {
-            width: 20em;
+            width: 25em;
             border-left: none;
             border-right: none;
             border-top: #F2F2F2 2px solid;
@@ -266,7 +333,6 @@
             padding: 18px 20px 18px 20px;
             font-weight: bold;
             font-size: 2em;
-            
         }
 
         section h1
@@ -300,6 +366,42 @@
         }
     
 
+    }
+
+    @media screen and (max-width: 1024px)
+    {
+        #search
+        {
+            margin-top: 4em;
+        }
+        
+        section h1
+        {
+            font-size: 1.5em;
+        }
+        
+        #sub_title_search
+        {
+            font-size: 1em;
+        }
+
+        label
+        {
+            padding: 0.2em;
+        }
+        .searching_area
+        {
+            font-size: 1em;
+        }
+        
+        #searching_div .fas 
+        {
+            font-weight: bold;
+            font-size: 1em;
+            padding: 1em;
+        }
+
+        
     }
 
 
@@ -444,6 +546,57 @@
             margin: 1em;
             text-align: left;
             font-size: 1.3em;
+        }
+   }
+
+   @media screen and (max-width: 1024px)
+   {
+        .filter_name
+        {
+            font-size: 1em;
+        }
+
+        .filtered_search
+        {
+            border: #F2F2F2 2px solid;
+        }
+
+        #filter_title
+        {
+            font-size: 1em;
+            margin: 0;
+            padding: 1em;
+        }
+
+        .icon_search
+        {
+            width: 3em;
+            height: 3em;
+        }
+
+        .icon_filter
+        {
+            font-size: 0.6em;
+        }
+
+        #logo_info 
+        {
+            margin-top: 1.5em;
+            border: 1px solid #F2F2F2;
+            width: 1em;
+            height: 1em;
+        }
+
+        #info .fas 
+        {
+            font-size: 0.8em;
+        }
+
+        #info p 
+        {
+            margin: 2.4em 2.2em 2.2em 0.1em;
+            text-align: left;
+            font-size: 0.8em;
         }
    }
 
@@ -604,6 +757,70 @@
         padding: 0;
     }
    }
+
+   @media screen and (max-width: 1024px)
+   {
+
+        #lodging 
+        {
+            width: 100%;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        #title_lodging 
+        {
+            font-size: 1.2em;
+        }
+
+        .lodging_a 
+        {
+            width: 45%;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+            margin-right: 0.5em;
+        }
+
+        .lodging_card 
+        {
+            border-radius: 5px;
+            box-shadow: 0 0 20px #d9d9d9;
+        }
+
+
+
+        .lodging_card_img 
+        {
+            height: 10em;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        article h3 
+        {
+            font-size: 0.8em;
+            padding: 0.5em 0 0.5em 0.5em;
+        }
+
+        .lodging_card_content p 
+        {
+            padding: 0 0 0.5em 0.7em;
+            font-size: 0.7em;
+        }
+
+        .lodging_card_star 
+        {
+            font-size: 0.7em;
+            padding: 0 0 0.5em 0.7em;
+        }
+
+        #article_more 
+        {
+            font-size: 1em;
+            padding: 0;
+        }
+
+    }
 
 
    aside
@@ -806,6 +1023,49 @@
 
     }
 
+    @media screen and (max-width: 1024px)
+    {
+
+        aside p 
+        {
+            font-size: 0.8em;
+        }
+
+        aside h3 {
+            font-size: 1em;
+            margin-bottom: 0.5em;
+        }
+
+        .most_popular_card {
+            height: 8em;
+            border-radius: 5px;
+            width: 95%;
+        }
+
+        .most_popular_img {
+            width: 35%;
+            height: 90%;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .aside_card_star {
+            font-size: 0.8em;
+        }
+
+        .aside_img {
+            width: 60%;
+        }
+
+        .aside_content_card {
+            width: 100%;
+            padding: 1.5em;
+        }
+
+
+
+    }
+
 
    #activity
    {
@@ -1003,6 +1263,103 @@
         }
     }
 
+    @media screen and (max-width: 1024px)
+    {
+        #activity 
+        {
+            margin-top: 3em;
+        }
+
+        #activity h2 
+        {
+            font-size: 1.5em;
+        }
+
+        #activity_content 
+        {
+            display: flex;
+            flex-wrap: wrap ;
+            flex-direction: initial;
+        }
+
+            
+        #activity_1 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+            margin-right: 4em;
+        }
+
+        #activity_2 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+        }
+
+        #activity_3 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+            margin-right: 4em;
+        }
+
+        #activity_4 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+        }
+
+        #activity_5 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+            margin-right: 4em;
+        }
+
+        #activity_6 
+        {
+            width: 40%;
+            border-radius: 5px;
+            margin-bottom: 3em;
+            margin-top: 0;
+        }
+
+
+        #activity h3 
+        {
+            font-size: 0.8em;
+            padding: 1em;
+            margin-top: 0;
+        }
+
+
+        .activity_large 
+        {
+            height: 9em;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        .activity_medium 
+        {
+            height: 9em;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+
+    }
+
     footer
     {
         background-color: #F2F2F2;
@@ -1038,7 +1395,7 @@
             padding: 5em 2em 1em 5em;
             display: flex;
             flex-direction: column;
-            margin-left: 2em;
+            margin-left: 3em;
         }
 
         .footer_content
@@ -1062,5 +1419,27 @@
         {
             color: black;
         }
+    }
+
+    @media screen and (max-width: 1024px)
+    {
+        footer 
+        {
+            display: flex;
+            flex-direction: initial;
+            margin-left: 0;
+        }
+
+        footer h2 
+        {
+            font-size: 1em;
+        }
+
+        footer li 
+        {
+            font-size: 0.8em;
+        }
+
+
     }
    
