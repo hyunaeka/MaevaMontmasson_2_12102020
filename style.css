@@ -25,7 +25,7 @@ html
     {
         width: 10%;
         padding: 2em 0 0 0;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     nav
@@ -84,149 +84,10 @@ html
     {
         list-style: none;
     }
-
-    @media screen and (max-width: 667px) 
-    
-    {
-        body
-        {
-            width: 34.7em;
-            margin: auto;
-        }
-        header 
-        {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            width: 32em;
-        }
-
-        #Logo
-        {
-            order: 1;
-            padding: 4em 0 0 0;
-            margin: 0;
-            width: 25%;
-        }
-            
-        #sign_up
-        {
-            padding: 3em 0 0 4em;
-            order: 2;
-            font-size: 1em;
-            width: 25%;
-        }
-
-        a#sign_up
-        {
-            text-decoration: none;
-            font-weight:500;
-            color: #0065FC ;
-        }
-
-        nav 
-        {
-            padding: 1.5em 1em 0 1em;
-            font-size: 1em;
-            order: 3;
-        }
-        
-        .header_nav
-        {
-            border-bottom: #F2F2F2 solid 6px;
-            color: black;
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
-
-        a.header_nav:link
-        {
-            text-decoration: none;
-            border-bottom: #F2F2F2 solid 6px;
-            color: black;
-            padding: 1.5em 3em;
-        }
-
-        a.header_nav:active
-        {
-            color: #0065FC;
-            border-bottom: #0065FC solid 6px;
-            border-top: none;
-        }
-
-    }
-
-
-    @media screen and (max-width: 925px) and (min-width: 768px)
-    {
-        header 
-        {
-            display: flex;
-            flex-direction: row;
-            border-bottom: blue 2px solid;
-        }
-
-        #Logo
-        {
-            padding: 2em;
-            margin-right: 20em;
-            width: 8em;
-            height: 4em;
-            margin-left: 19em;
-        }
-            
-        #sign_up
-        {
-            text-decoration: none;
-            font-weight: 500;
-            color: #0065FC;
-            font-size: 1.1em;
-            padding-top: 2.4em;
-            padding-left: 2.2em;
-            margin: 0;
-            width: 0;
-            height: 0;
-        }
-
-        a#sign_up
-        {
-            text-decoration: none;
-            font-weight:500;
-            color: #0065FC ;
-        }
-
-        nav 
-        {
-            padding: 0;
-            font-size: 1.5em;
-        }
-        
-        .header_nav
-        {
-            font-size: 0.7em;
-            border: none !important;
-        }
-
-        a.header_nav:link
-        {
-            text-decoration: none;
-            border-bottom: #F2F2F2 solid 6px;
-            color: black;
-        }
-
-        a.header_nav:active
-        {
-            color: #0065FC;
-            border-bottom: #0065FC solid 6px;
-            border-top: none;
-        }
-
-    }
-
    
     main
     {
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -295,122 +156,6 @@ html
     {
         display: none !important;
     }
-
-    
-
-
-    @media screen and (max-width: 667px)
-    {
-
-        #searching_div 
-        {
-            display: flex;
-            /* box-sizing: border-box; */
-            margin-bottom: 3em;
-            margin-left: 1em;
-        }
-
-        label
-        {
-            background-color: #F2F2F2;
-            border-top-left-radius: 40px;
-            border-bottom-left-radius: 40px;
-            margin-right: 0;
-            padding: 1em;
-        }
-
-        .searching_area
-        {
-            width: 25em;
-            border-left: none;
-            border-right: none;
-            border-top: #F2F2F2 2px solid;
-            border-bottom: #F2F2F2 2px solid;
-            margin: 0px;
-            font-weight:700;
-            font-style: normal;
-            padding-left: 1em;
-            font-size: 1.5em;
-            
-        }
-
-        #searching_div .fas
-        {
-            
-            padding: 18px 20px 18px 20px;
-            font-weight: bold;
-            font-size: 2em;
-        }
-
-        section h1
-        {
-            font-size: 2em;
-            margin-bottom: 0.4em;
-        }
-    
-        #sub_title_search
-        {
-            margin-bottom: 2em;
-            font-size: 1.5em;
-        }
-
-        .submit_icon
-        {
-            display: block !important;
-            color: white;
-            font-size: 2em;
-        }
-
-        #search_input
-        {
-            display: none !important;
-        }
-
-        button 
-        {
-            border-radius: 30px;
-            margin-left: -3em;
-        }
-    
-
-    }
-
-    @media screen and (max-width: 925px) and (min-width: 700px)
-    {
-        #search
-        {
-            margin-top: 4em;
-        }
-        
-        section h1
-        {
-            font-size: 1.5em;
-        }
-        
-        #sub_title_search
-        {
-            font-size: 1em;
-        }
-
-        label
-        {
-            padding: 0.2em;
-        }
-        .searching_area
-        {
-            font-size: 1em;
-        }
-        
-        #searching_div .fas 
-        {
-            font-weight: bold;
-            font-size: 1em;
-            padding: 1em;
-        }
-
-        
-    }
-
 
     #filter_title
     {
@@ -493,118 +238,6 @@ html
        font-size: 15px;
        text-align: center;
        padding-top: 0.2em;
-   }
-
-   @media screen and (max-width: 667px) 
-   {
-        #filter_bar
-        {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .filtered_search
-        {
-            border-radius: 5rem;
-            border: #F2F2F2 5px solid;
-            border-left: none;
-            margin-right: 1em;
-        }
-
-        #filter_title
-        {
-            font-size: 2em;
-            margin-right: 11em;
-        } 
-
-        .icon_search
-        {
-            width: 5.5em;
-            height: 5.5em;
-        }
-
-        .icon_filter
-        {
-            font-size: 1.5em;
-        }
-
-        .filter_name
-        {
-            font-size: 1.4em;
-        }
-
-        #logo_info
-        {
-            margin-top: 1.5em;
-            border: 3px solid #F2F2F2;
-            width: 2em;
-            height: 2em;
-        }
-
-        #info .fas
-
-        {
-            font-size: 1em;
-            color: #0065FC;
-        }
-
-        #info p 
-        {
-            margin: 1em;
-            text-align: left;
-            font-size: 1.3em;
-        }
-   }
-
-   @media screen and (max-width: 925px) and (min-width: 700px)
-   {
-        .filter_name
-        {
-            font-size: 1em;
-        }
-
-        .filtered_search
-        {
-            border: #F2F2F2 2px solid;
-        }
-
-        #filter_title
-        {
-            font-size: 1em;
-            margin: 0;
-            padding: 1em;
-        }
-
-        .icon_search
-        {
-            width: 3em;
-            height: 3em;
-        }
-
-        .icon_filter
-        {
-            font-size: 0.6em;
-        }
-
-        #logo_info 
-        {
-            margin-top: 1.5em;
-            border: 1px solid #F2F2F2;
-            width: 1em;
-            height: 1em;
-        }
-
-        #info .fas 
-        {
-            font-size: 0.8em;
-        }
-
-        #info p 
-        {
-            margin: 2.4em 2.2em 2.2em 0.1em;
-            text-align: left;
-            font-size: 0.8em;
-        }
    }
 
    #lodging_main
@@ -701,135 +334,6 @@ html
     margin-bottom: 2em;
    }
 
-   @media screen and (max-width: 667px)
-   {
-
-    #lodging_main
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #lodging
-    {
-        width: 100%;
-        background-color: white;
-    }
-
-    #title_lodging
-
-    {
-        font-size: 2.2em;
-    }
-
-    .lodging_card
-    {
-        border-radius: 50px;
-        box-shadow: 0 0 20px #d9d9d9;
-    }
-
-    .lodging_a
-    {
-        width: 100%;
-        margin-bottom: 1em;
-    }
-
-    .lodging_card_img
-    {
-        height: 11em;
-        border-top-right-radius: 50px;
-        border-top-left-radius: 50px;
-    }
-
-    article h3
-    {
-        font-size: 2em;
-        padding: 0.5em 0 0.5em 0.5em;
-    }
-    .lodging_card_content p
-    {
-        padding: 0 0 0.5em 0.7em;
-        font-size: 1.5em;
-    }
-
-    .lodging_card_star
-    {
-        font-size: 1.5em;
-        padding: 0 0 0.5em 0.7em;
-    }
-
-    #article_more 
-    {
-        font-size: 2em;
-        padding: 0;
-    }
-   }
-
-   @media screen and (max-width: 925px) and (min-width: 700px)
-   {
-
-        #lodging 
-        {
-            width: 100%;
-            background-color: #f2f2f2;
-            border-radius: 5px;
-        }
-
-        #title_lodging 
-        {
-            font-size: 1.2em;
-        }
-
-        .lodging_a 
-        {
-            width: 45%;
-            margin-bottom: 1em;
-            box-sizing: border-box;
-            margin-right: 0.5em;
-        }
-
-        .lodging_card 
-        {
-            border-radius: 5px;
-            box-shadow: 0 0 20px #d9d9d9;
-        }
-
-
-
-        .lodging_card_img 
-        {
-            height: 10em;
-            border-top-right-radius: 5px;
-            border-top-left-radius: 5px;
-        }
-
-        article h3 
-        {
-            font-size: 0.8em;
-            padding: 0.5em 0 0.5em 0.5em;
-        }
-
-        .lodging_card_content p 
-        {
-            padding: 0 0 0.5em 0.7em;
-            font-size: 0.7em;
-        }
-
-        .lodging_card_star 
-        {
-            font-size: 0.7em;
-            padding: 0 0 0.5em 0.7em;
-        }
-
-        #article_more 
-        {
-            font-size: 1em;
-            padding: 0;
-        }
-
-    }
-
-
    aside
    {
        background-color: #F2F2F2;
@@ -848,16 +352,16 @@ html
    }
    .most_popular_card
    {
-    width: 85%;
-    height: 8em;
-    background-color: white;
-    position: relative;
-    padding: 0.5rem;
-    margin-top: 1em;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 8px 8px 8px #d9d9d9;
+        width: 85%;
+        height: 8em;
+        background-color: white;
+        position: relative;
+        padding: 0.5rem;
+        margin-top: 1em;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 8px 8px 8px #d9d9d9;
    }
 
    .most_popular_img
@@ -956,123 +460,6 @@ html
     {
         color: #d9d9d9;
     }
- 
-    @media screen and (max-width: 667px)
-    {
-           .most_popular
-        {
-            display: flex;
-            flex-wrap: wrap;
-            padding-right: 1em;
-        }
-
-        aside 
-        {
-            margin-bottom: 2em;
-            padding-bottom: 5em;
-            width: 100%;
-            margin-left: 0;
-            border-radius: 2px;
-        }
-
-        aside h3 
-        {
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-        }
-
-        aside p 
-        {
-            font-size: 1.5em;
-        }
-
-        aside.fas 
-        {
-            font-size: 2em;
-        }
-
-        .aside_card_star
-
-        {
-            font-size: 1.5em;
-        }
-
-        .aside_content_card
-        {
-            width: 80%;
-            padding: 1.5em;
-        }
-
-        #header_aside 
-        {
-            font-size: 2em;
-        }
-
-        .most_popular_card
-        {
-            height: 15em;
-            border-radius: 50px;
-            width: 95%;
-        }
-
-        .aside_img 
-        {
-            width: 70%;
-        }
-
-        .most_popular_img
-        {
-            width: 40%;
-            height: 93%;
-            border-top-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-        }
-
-    }
-
-    @media screen and (max-width: 925px) and (min-width: 700px)
-    {
-
-        aside p 
-        {
-            font-size: 0.8em;
-        }
-
-        aside h3 {
-            font-size: 1em;
-            margin-bottom: 0.5em;
-        }
-
-        .most_popular_card {
-            height: 8em;
-            border-radius: 5px;
-            width: 95%;
-        }
-
-        .most_popular_img {
-            width: 35%;
-            height: 90%;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
-        }
-
-        .aside_card_star {
-            font-size: 0.8em;
-        }
-
-        .aside_img {
-            width: 60%;
-        }
-
-        .aside_content_card {
-            width: 100%;
-            padding: 1.5em;
-        }
-
-
-
-    }
-
 
    #activity
    {
@@ -1180,8 +567,365 @@ html
         padding-left: 1em;
     }
 
+    footer
+    {
+        background-color: #F2F2F2;
+        margin-top: 4em;
+        padding: 2em 0 2em 10em;
+        display: flex;
+    }
+
+    .footer_content
+    {
+        margin-right: 20%;
+    }
+
+    footer h2
+    {
+        font-size: 1em;
+    }
+
+    footer ul
+    {
+        padding: 0;
+    }
+
+    footer li 
+    {
+        line-height: 2em;
+    }
+
+
     @media screen and (max-width: 667px)
     {
+           
+    main 
+    {
+        margin: 0 !important;
+        width: 99% !important;
+
+    }
+
+    body
+    {
+        width: 34.7em;
+        margin: auto;
+    }
+    header 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 32em;
+    }
+
+    #Logo
+    {
+        order: 1;
+        padding: 4em 0 0 0;
+        margin: 0;
+        width: 25%;
+    }
+        
+    #sign_up
+    {
+        padding: 3em 0 0 4em;
+        order: 2;
+        font-size: 1em;
+        width: 25%;
+    }
+
+    a#sign_up
+    {
+
+        font-weight: 600;
+        font-size: 1.5em;
+        padding-left: 10em;
+    }
+
+    nav 
+    {
+        font-size: 1em;
+        order: 3;
+        padding: 0;
+    }
+    
+    .header_nav
+    {
+        border-bottom: #F2F2F2 solid 6px;
+        color: black;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 1.5em;
+    }
+
+    a.header_nav:link
+    {
+        text-decoration: none;
+        border-bottom: #F2F2F2 solid 6px;
+        color: black;
+        padding: 1.5em 3em;
+    }
+
+    a.header_nav:active
+    {
+        color: #0065FC;
+        border-bottom: #0065FC solid 6px;
+        border-top: none;
+    }
+    
+    #search
+    {
+        margin: 1em;
+    }
+
+    #searching_div 
+    {
+        margin-bottom: 2em;
+    }
+
+    label
+    {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding: 0.5em;
+    }
+
+    .searching_area
+    {
+        width: 25em;
+        border-left: none;
+        border-top: #F2F2F2 2px solid;
+        border-bottom: #F2F2F2 2px solid;
+        padding-left: 1em;
+        font-size: 1.2em;
+        
+    }
+
+    #searching_div .fas
+    {
+        font-size: 1.5em;
+    }
+
+    section h1
+    {
+        font-size: 2em;
+        margin-bottom: 0.4em;
+    }
+
+    #sub_title_search
+    {
+        margin-bottom: 2em;
+        font-size: 1.5em;
+    }
+
+    .submit_icon
+    {
+        display: block !important;
+        color: white;
+        font-size: 2em;
+    }
+
+    #search_input
+    {
+        display: none !important;
+    }
+
+    button 
+    {
+        border-radius: 30px;
+        margin-left: -3em;
+    }
+    
+        #filter_bar
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .filtered_search
+        {
+            border: #F2F2F2 3px solid;
+            border-left: none;
+            margin-right: 0.5em;
+            border-radius: 3em;
+        }
+
+        #filter_title
+        {
+            font-size: 2em;
+            margin-right: 11em;
+        } 
+
+        .icon_search
+        {
+            width: 5.5em;
+            height: 5.5em;
+        }
+
+        .icon_filter
+        {
+            font-size: 1.5em;
+        }
+
+        .filter_name
+        {
+            font-size: 1.4em;
+        }
+
+        #logo_info
+        {
+            margin-top: 1.5em;
+            width: 2.5em;
+            height: 2em;
+        }
+
+        #info .fas
+
+        {
+            font-size: 1em;
+            color: #0065FC;
+        }
+
+        #info p 
+        {
+            margin: 1em;
+            text-align: left;
+            font-size: 1.3em;
+        }
+        
+    #lodging_main
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95.2%;
+    }
+
+    #lodging
+    {
+        width: 95%;
+        background-color: white;
+    }
+
+    #title_lodging
+
+    {
+        font-size: 2.2em;
+    }
+
+    .lodging_card
+    {
+        border-radius: 50px;
+        box-shadow: 0 0 20px #d9d9d9;
+    }
+
+    .lodging_a
+    {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .lodging_card_img
+    {
+        height: 11em;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    article h3
+    {
+        font-size: 2em;
+        padding: 0.5em 0 0.5em 0.5em;
+    }
+    .lodging_card_content p
+    {
+        padding: 0 0 0.5em 0.7em;
+        font-size: 1.5em;
+    }
+
+    .lodging_card_star
+    {
+        font-size: 1.5em;
+        padding: 0 0 0.5em 0.7em;
+    }
+
+    #article_more 
+    {
+        font-size: 2em;
+        padding: 0;
+    }
+
+        .most_popular
+        {
+            display: flex;
+            flex-wrap: wrap;
+            padding-right: 1em;
+        }
+
+        aside 
+        {
+            margin-bottom: 2em;
+            width: 100%;
+            margin-left: 0;
+            border-radius: 2px;
+            padding: 4em 1em 5em;
+        }
+
+        aside h3 
+        {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        aside p 
+        {
+            font-size: 1.5em;
+        }
+
+        aside.fas 
+        {
+            font-size: 2em;
+        }
+
+        .aside_card_star
+
+        {
+            font-size: 1.5em;
+        }
+
+        .aside_content_card
+        {
+            width: 80%;
+            padding: 1.5em;
+        }
+
+        #header_aside 
+        {
+            font-size: 2em;
+            padding-left: 1em;
+            padding-right: 0.5em;
+        }
+
+        .most_popular_card
+        {
+            height: 15em;
+            border-radius: 50px;
+            width: 95%;
+        }
+
+        .aside_img 
+        {
+            width: 70%;
+        }
+
+        .most_popular_img
+        {
+            width: 40%;
+            height: 93%;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+
         #activity 
         {
             margin-top: 0;
@@ -1191,6 +935,7 @@ html
         {
             height: 100%;
             margin-left: 0;
+            width: 90%;
         }
 
         #activity h2
@@ -1202,10 +947,9 @@ html
 
         #activity_1
         {
-            width: 23em;
+            width: 100%;
             border-radius: 50px;
             margin-bottom: 3em;
-            margin-top: 0;
         }
 
         #activity_2
@@ -1268,13 +1012,257 @@ html
             padding: 1em;
             margin-top: 0;
         }
+
+
+        footer 
+        {
+            padding: 5em 2em 1em 5em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 0;
+        }
+
+        .footer_content
+        {
+            margin-bottom: 2em;
+            color: black;
+        }
+
+        footer h2 
+        {
+            font-size: 2em;
+        }
+
+        footer li {
+            line-height: 2em;
+            color: black;
+            font-size: 1.5em;
+        }
+
+        a.a_footer:link 
+        {
+            color: black;
+        }
+
     }
 
-    @media screen and (max-width: 925px) and (min-width: 700px)
+    @media screen and (max-width: 1240px) and (min-width: 668px)
     {
-        #activity 
+        #Logo
         {
+            width: 20%;
+        }
+
+        nav 
+        {
+            padding-left: 25%;
+            font-size: 1.5em;
+        }
+
+        #sign_up
+        {
+            font-size: 1.5em;
+        }
+
+        main 
+        {
+            width: 100% !important;
+            margin: 2.5em !important;
+            font-size: 1.5em;
+        }
+
+        label 
+        {
+            padding: 0.5em;
+        }
+
+        button 
+        {
+            font-size: 0.8em;
+        }
+
+        #searching_div
+        {
+            font-size: 1em;
+        }
+
+        .searching_area
+        {
+            font-size: 0.9em;
+            width: 15em !important;
+            padding-left: 1em;
+        }
+
+        #search
+        {
+            margin-top: 4em;
+        }
+            
+        section h1
+        {
+            font-size: 1.5em !important;
+        }
+
+        #filter_bar
+        {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2em;
             margin-top: 3em;
+        }
+
+        #filter_title 
+        {
+            font-size: 1em;
+        }
+
+        #logo_info
+        {
+            height: 1em;
+            width: 1em;
+        }
+
+        #info .fas 
+        {
+            font-size: 0.8em;
+        }
+
+        #info p 
+        {
+            margin: 0px;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        #lodging_main
+        {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        #header_lodging 
+        {
+            margin-top: 2em;
+            font-size: 1.4em;
+        }
+
+        #lodging_article
+        {
+         width: 100%;
+        }
+
+        
+        aside 
+        {
+            width: 100%;
+            margin: 0;
+            padding-bottom: 4em;
+        }
+        aside p 
+        {
+            font-size: 1em;
+        }
+
+        aside h3 
+        {
+            font-size: 1em;
+            margin-bottom: 0.5em;
+        }
+
+        .most_popular_card 
+        {
+            height: 8em;
+            border-radius: 5px;
+            width: 95%;
+            padding-bottom: 2em;
+        }
+
+        .most_popular_img 
+        {
+            width: 35%;
+            height: 90%;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .aside_card_star 
+        {
+            font-size: 0.8em;
+        }
+
+        .aside_img 
+        {
+            width: 60%;
+        }
+
+        .aside_content_card 
+        {
+            width: 100%;
+            padding-left: 1.5em;
+            padding-top: 1.5em;
+        }
+
+        #lodging 
+        {
+            background-color: white;
+            padding: 1em;
+            width: 100%;
+        }
+
+        #title_lodging 
+        {
+            font-size: 1.2em;
+        }
+
+        .lodging_a 
+        {
+            width: 45%;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+            margin-right: 0.5em;
+        }
+
+        .lodging_card 
+        {
+            border-radius: 5px;
+            box-shadow: 0 0 20px #d9d9d9;
+        }
+
+        .lodging_card_img 
+        {
+            height: 10em;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        article h3 
+        {
+            font-size: 0.8em;
+            padding: 0.5em 0 0.5em 0.5em;
+        }
+
+        .lodging_card_content p 
+        {
+            padding: 0 0 0.5em 0.7em;
+            font-size: 0.7em;
+        }
+
+        .lodging_card_star 
+        {
+            font-size: 0.7em;
+            padding: 0 0 0.5em 0.7em;
+        }
+
+        #article_more 
+        {
+            font-size: 1em;
+            padding: 0;
+        }
+
+        #activity
+
+        {
+            margin-top: 0;
         }
 
         #activity h2 
@@ -1287,6 +1275,7 @@ html
             display: flex;
             flex-wrap: wrap ;
             flex-direction: initial;
+            height: 100%;
         }
 
             
@@ -1365,77 +1354,17 @@ html
             border-top-left-radius: 5px;
         }
 
-
-    }
-
-    footer
-    {
-        background-color: #F2F2F2;
-        margin-top: 4em;
-        padding: 2em 0 2em 10em;
-        display: flex;
-    }
-
-    .footer_content
-    {
-        margin-right: 20%;
-    }
-
-    footer h2
-    {
-        font-size: 1em;
-    }
-
-    footer ul
-    {
-        padding: 0;
-    }
-
-    footer li 
-    {
-        line-height: 2em;
-    }
-
-   @media screen and (max-width: 667px)
-   {
         footer 
-        {
-            padding: 5em 2em 1em 5em;
+        {   
+            width: 100%;
+            padding: 2em 5em 2em 7em;
             display: flex;
-            flex-direction: column;
-            margin-left: 3em;
+            justify-content: center;
         }
 
-        .footer_content
+        .footer_content 
         {
-            margin-bottom: 2em;
-            color: black;
-        }
-
-        footer h2 
-        {
-            font-size: 2em;
-        }
-
-        footer li {
-            line-height: 2em;
-            color: black;
-            font-size: 1.5em;
-        }
-
-        a.a_footer:link 
-        {
-            color: black;
-        }
-    }
-
-    @media screen and (max-width: 925px) and (min-width: 768px)
-    {
-        footer 
-        {
-            display: flex;
-            flex-direction: initial;
-            margin-left: 0;
+            margin-right: 10%;
         }
 
         footer h2 
@@ -1445,9 +1374,7 @@ html
 
         footer li 
         {
-            font-size: 0.8em;
+            font-size: 1em;
         }
 
-
     }
-   
