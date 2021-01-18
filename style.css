@@ -1,7 +1,7 @@
 html
     {
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
     }
 
     body
@@ -31,12 +31,13 @@ html
     nav
     {
         display: flex;
-        padding-left: 53%;
+        padding-left: 60%;
     }
 
     .header_nav
     {
         padding: 50px 25px 25px 25px;
+        color: black;
 
     }
 
@@ -94,8 +95,8 @@ html
     label
     {
         background-color: #F2F2F2;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
         margin-right: 0;
     }
 
@@ -115,10 +116,15 @@ html
         border-top: #F2F2F2 1px solid;
         border-bottom: #F2F2F2 1px solid;
         margin: 0px;
-        font-weight: bold;
         font-style: normal;
         padding-left: 10px;
         
+    }
+
+    #location_search::placeholder
+    {
+        font-weight:800;
+        color: black !important;
     }
 
     #searching_div
@@ -134,12 +140,13 @@ html
         border-bottom: none;
         border-left: none;
         border-right: none;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
         background-color: #0065FC;
-        width: 10em;
+        width: 7em;
         color: white;
         font-stretch: extra-expanded;
+        font-size: 1em;
     }
 
     section h1
@@ -230,6 +237,7 @@ html
    #info .fas
    {
        font-size: 10px;
+       color: #0065FC;
    }
 
    #info p
@@ -263,7 +271,10 @@ html
        flex-direction: row;
        flex-wrap: wrap;
        justify-content: space-between;
-       margin-right: 2em;     
+       margin-right: 3.5em;
+       margin-left: 1em;
+    }   
+
    }
 
   
@@ -278,6 +289,7 @@ html
    {
         height: 50%;
         width: 30%;
+        color: black;
    }
 
    .lodging_card
@@ -286,10 +298,10 @@ html
         width: 100%;
         background-color: white;
         margin-top: 1em;
-        border-radius: 15px;
-        padding: 0.5rem;
+        margin-bottom: 2em;
+        border-radius: 20px;
+        padding: 0.3rem;
         box-shadow: 8px 8px 8px #d9d9d9;
-        box-sizing: content-box;
    }
 
 
@@ -308,30 +320,36 @@ html
    {
        padding: 0.2rem;
        margin: 0px;
+       font-size: 1em;
    }
 
    article p
    {
        padding: 0.2rem;
+       font-size: 0.9em;
    }
 
    .lodging_card_star
    {
        padding: 0.2rem;
+       font-size: 0.8em;
    }
 
    .lodging_card_content
    {
-       width: 100%;
-       overflow: auto;
+        width: 100%;
+        overflow: auto;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
    }
 
    #article_more
    {
-    font-weight: 600;
-    margin-top: 2em;
-    padding-left: 1em;
-    margin-bottom: 2em;
+        font-weight: 600;
+        margin-top: 2em;
+        padding-left: 1em;
+        margin-bottom: 2em;
    }
 
    aside
@@ -339,7 +357,7 @@ html
        background-color: #F2F2F2;
        padding-top: 2em;
        padding-left: 2em;
-       width: 40%;
+       width: 35%;
        margin-left: 3em;
        border-radius: 20px;
    }
@@ -348,16 +366,18 @@ html
    {
        display: flex;
        flex-direction: column;
+       margin-left: 1em;
 
    }
    .most_popular_card
    {
-        width: 85%;
+        width: 80%;
         height: 8em;
         background-color: white;
         position: relative;
         padding: 0.5rem;
         margin-top: 1em;
+        margin-bottom: 2.5em;
         border-radius: 20px;
         display: flex;
         justify-content: space-between;
@@ -395,12 +415,14 @@ html
         padding: 0;
         overflow: auto;
         height: 100%;
+        color: black;
     } 
 
     aside h3,p 
     {
         padding: 0;
         margin: 0;
+        font-size: 1em;
     }
 
     aside h2
@@ -418,6 +440,7 @@ html
     .aside_card_star
     {
         display: flex;
+        font-size: 0.8em;
         
     }
 
@@ -431,6 +454,8 @@ html
     {
         display: flex;
         justify-content: space-between;
+        margin-right: 1em;
+        margin-left: 1em;
     }
 
     .fa-chart-line
@@ -567,6 +592,16 @@ html
         padding-left: 1em;
     }
 
+    .activity_a:hover
+    {
+        color: #0065FC;
+    }
+
+    .activity_a 
+    {
+        color: black;
+    }
+
     footer
     {
         background-color: #F2F2F2;
@@ -593,6 +628,11 @@ html
     footer li 
     {
         line-height: 2em;
+    }
+
+    .a_footer
+    {
+        color: black;
     }
 
 
@@ -737,62 +777,62 @@ html
         margin-left: -3em;
     }
     
-        #filter_bar
-        {
-            display: flex;
-            flex-wrap: wrap;
-        }
+    #filter_bar
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-        .filtered_search
-        {
-            border: #F2F2F2 3px solid;
-            border-left: none;
-            margin-right: 0.5em;
-            border-radius: 3em;
-        }
+    .filtered_search
+    {
+        border: #F2F2F2 3px solid;
+        border-left: none;
+        margin-right: 0.5em;
+        border-radius: 3em;
+    }
 
-        #filter_title
-        {
-            font-size: 2em;
-            margin-right: 11em;
-        } 
+    #filter_title
+    {
+        font-size: 2em;
+        margin-right: 11em;
+    } 
 
-        .icon_search
-        {
-            width: 5.5em;
-            height: 5.5em;
-        }
+    .icon_search
+    {
+        width: 5.5em;
+        height: 5.5em;
+    }
 
-        .icon_filter
-        {
-            font-size: 1.5em;
-        }
+    .icon_filter
+    {
+        font-size: 1.5em;
+    }
 
-        .filter_name
-        {
-            font-size: 1.4em;
-        }
+    .filter_name
+    {
+        font-size: 1.4em;
+    }
 
-        #logo_info
-        {
-            margin-top: 1.5em;
-            width: 2.5em;
-            height: 2em;
-        }
+    #logo_info
+    {
+        margin-top: 1.5em;
+        width: 2.5em;
+        height: 2em;
+    }
 
-        #info .fas
+    #info .fas
 
-        {
-            font-size: 1em;
-            color: #0065FC;
-        }
+    {
+        font-size: 1em;
+        color: #0065FC;
+    }
 
-        #info p 
-        {
-            margin: 1em;
-            text-align: left;
-            font-size: 1.3em;
-        }
+    #info p 
+    {
+        margin: 1em;
+        text-align: left;
+        font-size: 1.3em;
+    }
         
     #lodging_main
     {
@@ -834,19 +874,19 @@ html
 
     article h3
     {
-        font-size: 2em;
-        padding: 0.5em 0 0.5em 0.5em;
+        font-size: 1.5em;
+        padding: 0.5em 0 0.2em 0.5em;
     }
     .lodging_card_content p
     {
-        padding: 0 0 0.5em 0.7em;
-        font-size: 1.5em;
+        padding: 0 0 0.5em 0.8em;
+        font-size: 1.1em;
     }
 
     .lodging_card_star
     {
-        font-size: 1.5em;
-        padding: 0 0 0.5em 0.7em;
+        font-size: 1em;
+        padding: 0 0 0.5em 0.8em;
     }
 
     #article_more 
@@ -855,194 +895,188 @@ html
         padding: 0;
     }
 
-        .most_popular
-        {
-            display: flex;
-            flex-wrap: wrap;
-            padding-right: 1em;
-        }
+    .most_popular
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 1em;
+    }
 
-        aside 
-        {
-            margin-bottom: 2em;
-            width: 100%;
-            margin-left: 0;
-            border-radius: 2px;
-            padding: 4em 1em 5em;
-        }
+    aside 
+    {
+        margin-bottom: 2em;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 2px;
+        padding: 4em 1em 5em;
+    }
 
-        aside h3 
-        {
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-        }
+    aside h3 
+    {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
 
-        aside p 
-        {
-            font-size: 1.5em;
-        }
+    aside p 
+    {
+        font-size: 1.2em;
+    }
 
-        aside.fas 
-        {
-            font-size: 2em;
-        }
+    aside.fas 
+    {
+        font-size: 2em;
+    }
 
-        .aside_card_star
+    .aside_card_star
 
-        {
-            font-size: 1.5em;
-        }
+    {
+        font-size: 1em;
+    }
 
-        .aside_content_card
-        {
-            width: 80%;
-            padding: 1.5em;
-        }
+    .aside_content_card
+    {
+        width: 80%;
+        padding: 1.5em;
+    }
 
-        #header_aside 
-        {
-            font-size: 2em;
-            padding-left: 1em;
-            padding-right: 0.5em;
-        }
+    #header_aside 
+    {
+        font-size: 2em;
+        padding: 0;
+    }
 
-        .most_popular_card
-        {
-            height: 15em;
-            border-radius: 50px;
-            width: 95%;
-        }
+    .most_popular_card
+    {
+        height: 15em;
+        border-radius: 25px;
+        width: 95%;
+    }
 
-        .aside_img 
-        {
-            width: 70%;
-        }
+    .aside_img 
+    {
+        width: 70%;
+    }
 
-        .most_popular_img
-        {
-            width: 40%;
-            height: 93%;
-            border-top-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-        }
+    .most_popular_img
+    {
+        width: 40%;
+        height: 93%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
 
-        #activity 
-        {
-            margin-top: 0;
-        }
+    #activity 
+    {
+         margin-top: 0;
+    }
         
-        #activity_content
-        {
-            height: 100%;
-            margin-left: 0;
-            width: 90%;
-        }
+    #activity_content
+    {
+        height: 100%;
+        margin-left: 0;
+        width: 90%;
+    }
 
-        #activity h2
-        {
-            font-size: 2.2em;
-            padding-left: 0.7em;
-            padding-bottom: 1em;
-        }
+    #activity h2
+    {
+        font-size: 2.2em;
+        padding-left: 0.7em;
+        padding-bottom: 1em;
+    }
 
-        #activity_1
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-        }
+    #activity_1
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+    }
 
-        #activity_2
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-        }
+    #activity_2
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+    }
 
-        #activity_3
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-            margin-top: 0;
-        }
+    #activity_3
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+        margin-top: 0;
+    }
 
-        #activity_4
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-            margin-top: 0;
-        }
+    #activity_4
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+        margin-top: 0;
+    }
 
-        #activity_5
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-        }
+    #activity_5
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+    }
 
-        #activity_6
-        {
-            width: 100%;
-            border-radius: 50px;
-            margin-bottom: 3em;
-            margin-top: 0;
-        }
+    #activity_6
+    {
+        width: 100%;
+        border-radius: 50px;
+        margin-bottom: 3em;
+        margin-top: 0;
+    }
 
-        .activity_large
-        {
-            height: 11em;
-            border-top-right-radius: 50px;
-            border-top-left-radius: 50px;
+    .activity_large
+    {
+        height: 11em;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
             
-        }
+    }
 
-        .activity_medium 
-        {
-            height: 11em;
-            border-top-right-radius: 50px;
-            border-top-left-radius: 50px;
-            
-        }
+    .activity_medium 
+    {
+        height: 11em;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;   
+    }
 
-        #activity h3 
-        {
-            font-size: 1.9em;
-            padding: 1em;
-            margin-top: 0;
-        }
+    #activity h3 
+    {
+        font-size: 1.5em;
+        padding: 1em;
+        margin-top: 0;
+    }
 
+    footer 
+    {
+        padding: 5em 2em 1em 5em;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
 
-        footer 
-        {
-            padding: 5em 2em 1em 5em;
-            display: flex;
-            flex-direction: column;
-            margin-left: 0;
-        }
+    .footer_content
+    {
+        margin-bottom: 2em;
+        color: black;
+    }
 
-        .footer_content
-        {
-            margin-bottom: 2em;
-            color: black;
-        }
+    footer h2 
+    {
+        font-size: 2em;
+    }
 
-        footer h2 
-        {
-            font-size: 2em;
-        }
+    footer li 
+    {
+        line-height: 2em;
+        color: black;
+        font-size: 1.5em;
+    }
 
-        footer li {
-            line-height: 2em;
-            color: black;
-            font-size: 1.5em;
-        }
-
-        a.a_footer:link 
-        {
-            color: black;
-        }
 
     }
 
@@ -1172,17 +1206,16 @@ html
         .most_popular_card 
         {
             height: 8em;
-            border-radius: 5px;
-            width: 95%;
+            width: 90%;
             padding-bottom: 2em;
         }
 
         .most_popular_img 
         {
             width: 35%;
-            height: 90%;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
+            height: 94%;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
         }
 
         .aside_card_star 
@@ -1224,15 +1257,12 @@ html
 
         .lodging_card 
         {
-            border-radius: 5px;
             box-shadow: 0 0 20px #d9d9d9;
         }
 
         .lodging_card_img 
         {
             height: 10em;
-            border-top-right-radius: 5px;
-            border-top-left-radius: 5px;
         }
 
         article h3 
