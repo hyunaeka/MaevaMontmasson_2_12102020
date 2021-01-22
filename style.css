@@ -18,6 +18,8 @@ html
     {
         display: flex;
         margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
     }
     
 
@@ -31,7 +33,11 @@ html
     nav
     {
         display: flex;
-        padding-left: 60%;
+    }
+
+    #navbar 
+    {
+        display: flex;
     }
 
     .header_nav
@@ -173,6 +179,7 @@ html
     #filter_bar
     {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .filtered_search
@@ -274,8 +281,6 @@ html
        margin-right: 3.5em;
        margin-left: 1em;
     }   
-
-   }
 
   
    #title_lodging
@@ -454,8 +459,9 @@ html
     {
         display: flex;
         justify-content: space-between;
-        margin-right: 1em;
-        margin-left: 1em;
+        margin: 0;
+        margin-bottom: 0px;
+        margin-bottom: 1em;
     }
 
     .fa-chart-line
@@ -606,13 +612,8 @@ html
     {
         background-color: #F2F2F2;
         margin-top: 4em;
-        padding: 2em 0 2em 10em;
         display: flex;
-    }
-
-    .footer_content
-    {
-        margin-right: 20%;
+        justify-content: space-around;
     }
 
     footer h2
@@ -636,57 +637,45 @@ html
     }
 
 
-    @media screen and (max-width: 667px)
+    @media screen and (max-width: 670px) 
     {
            
     main 
     {
         margin: 0 !important;
-        width: 99% !important;
 
     }
 
     body
     {
-        width: 34.7em;
-        margin: auto;
+        margin: 0;
     }
     header 
     {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 32em;
     }
 
     #Logo
     {
-        order: 1;
         padding: 4em 0 0 0;
         margin: 0;
-        width: 25%;
     }
         
     #sign_up
     {
         padding: 3em 0 0 4em;
         order: 2;
-        font-size: 1em;
-        width: 25%;
     }
 
     a#sign_up
     {
-
         font-weight: 600;
-        font-size: 1.5em;
-        padding-left: 10em;
     }
 
     nav 
     {
-        font-size: 1em;
-        order: 3;
         padding: 0;
     }
     
@@ -696,7 +685,6 @@ html
         color: black;
         margin-top: 1em;
         margin-bottom: 1em;
-        font-size: 1.5em;
     }
 
     a.header_nav:link
@@ -704,7 +692,6 @@ html
         text-decoration: none;
         border-bottom: #F2F2F2 solid 6px;
         color: black;
-        padding: 1.5em 3em;
     }
 
     a.header_nav:active
@@ -733,37 +720,21 @@ html
 
     .searching_area
     {
-        width: 25em;
         border-left: none;
         border-top: #F2F2F2 2px solid;
         border-bottom: #F2F2F2 2px solid;
         padding-left: 1em;
-        font-size: 1.2em;
-        
-    }
-
-    #searching_div .fas
-    {
-        font-size: 1.5em;
-    }
-
-    section h1
-    {
-        font-size: 2em;
-        margin-bottom: 0.4em;
     }
 
     #sub_title_search
     {
         margin-bottom: 2em;
-        font-size: 1.5em;
     }
 
     .submit_icon
     {
         display: block !important;
         color: white;
-        font-size: 2em;
     }
 
     #search_input
@@ -791,12 +762,6 @@ html
         border-radius: 3em;
     }
 
-    #filter_title
-    {
-        font-size: 2em;
-        margin-right: 11em;
-    } 
-
     .icon_search
     {
         width: 5.5em;
@@ -805,12 +770,7 @@ html
 
     .icon_filter
     {
-        font-size: 1.5em;
-    }
-
-    .filter_name
-    {
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     #logo_info
@@ -821,7 +781,6 @@ html
     }
 
     #info .fas
-
     {
         font-size: 1em;
         color: #0065FC;
@@ -831,26 +790,17 @@ html
     {
         margin: 1em;
         text-align: left;
-        font-size: 1.3em;
     }
         
     #lodging_main
     {
         display: flex;
         flex-direction: column-reverse;
-        width: 95.2%;
     }
 
     #lodging
     {
-        width: 95%;
         background-color: white;
-    }
-
-    #title_lodging
-
-    {
-        font-size: 2.2em;
     }
 
     .lodging_card
@@ -874,24 +824,20 @@ html
 
     article h3
     {
-        font-size: 1.5em;
         padding: 0.5em 0 0.2em 0.5em;
     }
     .lodging_card_content p
     {
         padding: 0 0 0.5em 0.8em;
-        font-size: 1.1em;
     }
 
     .lodging_card_star
     {
-        font-size: 1em;
         padding: 0 0 0.5em 0.8em;
     }
 
     #article_more 
     {
-        font-size: 2em;
         padding: 0;
     }
 
@@ -905,7 +851,6 @@ html
     aside 
     {
         margin-bottom: 2em;
-        width: 100%;
         margin-left: 0;
         border-radius: 2px;
         padding: 4em 1em 5em;
@@ -913,24 +858,7 @@ html
 
     aside h3 
     {
-        font-size: 1.5em;
         margin-bottom: 0.5em;
-    }
-
-    aside p 
-    {
-        font-size: 1.2em;
-    }
-
-    aside.fas 
-    {
-        font-size: 2em;
-    }
-
-    .aside_card_star
-
-    {
-        font-size: 1em;
     }
 
     .aside_content_card
@@ -941,7 +869,6 @@ html
 
     #header_aside 
     {
-        font-size: 2em;
         padding: 0;
     }
 
@@ -949,7 +876,6 @@ html
     {
         height: 15em;
         border-radius: 25px;
-        width: 95%;
     }
 
     .aside_img 
@@ -967,40 +893,39 @@ html
 
     #activity 
     {
-         margin-top: 0;
+        margin: 0;
+        padding: 0;
     }
         
     #activity_content
     {
         height: 100%;
         margin-left: 0;
-        width: 90%;
     }
 
     #activity h2
     {
-        font-size: 2.2em;
         padding-left: 0.7em;
         padding-bottom: 1em;
     }
 
     #activity_1
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
     }
 
     #activity_2
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
     }
 
     #activity_3
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
         margin-top: 0;
@@ -1008,7 +933,7 @@ html
 
     #activity_4
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
         margin-top: 0;
@@ -1016,14 +941,14 @@ html
 
     #activity_5
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
     }
 
     #activity_6
     {
-        width: 100%;
+        width: 90%;
         border-radius: 50px;
         margin-bottom: 3em;
         margin-top: 0;
@@ -1046,17 +971,16 @@ html
 
     #activity h3 
     {
-        font-size: 1.5em;
         padding: 1em;
         margin-top: 0;
     }
 
     footer 
     {
-        padding: 5em 2em 1em 5em;
         display: flex;
         flex-direction: column;
         margin-left: 0;
+        margin: 0;
     }
 
     .footer_content
@@ -1065,44 +989,26 @@ html
         color: black;
     }
 
-    footer h2 
-    {
-        font-size: 2em;
-    }
-
     footer li 
     {
         line-height: 2em;
         color: black;
-        font-size: 1.5em;
     }
 
 
     }
 
-    @media screen and (max-width: 1240px) and (min-width: 668px)
+    @media screen and (max-width: 1240px) and (min-width: 670px)
     {
         #Logo
         {
             width: 20%;
         }
 
-        nav 
-        {
-            padding-left: 25%;
-            font-size: 1.5em;
-        }
-
-        #sign_up
-        {
-            font-size: 1.5em;
-        }
 
         main 
         {
-            width: 100% !important;
-            margin: 2.5em !important;
-            font-size: 1.5em;
+            margin: 0;
         }
 
         label 
@@ -1130,13 +1036,9 @@ html
         #search
         {
             margin-top: 4em;
+            margin-left: 5%;
         }
             
-        section h1
-        {
-            font-size: 1.5em !important;
-        }
-
         #filter_bar
         {
             display: flex;
@@ -1172,25 +1074,24 @@ html
         {
             display: flex;
             flex-direction: column-reverse;
+            margin-left: 5%;
+        }
+
+    
+        #lodging_article
+        {
+            margin: 0;
         }
 
         #header_lodging 
         {
             margin-top: 2em;
-            font-size: 1.4em;
         }
-
-        #lodging_article
-        {
-         width: 100%;
-        }
-
         
         aside 
         {
-            width: 100%;
-            margin: 0;
             padding-bottom: 4em;
+            width: auto;
         }
         aside p 
         {
@@ -1293,6 +1194,7 @@ html
 
         {
             margin-top: 0;
+            margin-left: 5%;
         }
 
         #activity h2 
@@ -1386,15 +1288,8 @@ html
 
         footer 
         {   
-            width: 100%;
-            padding: 2em 5em 2em 7em;
             display: flex;
-            justify-content: center;
-        }
-
-        .footer_content 
-        {
-            margin-right: 10%;
+            padding-top: 2em;
         }
 
         footer h2 
